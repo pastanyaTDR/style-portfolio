@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <nav class="navbar" id="center">
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#work">Work</a></li>
+            <li><a href="#resume">Resume</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+    <section id="home" class="section">
+        <div id="center">
+        <h1 id="title" style="color: crimson;">Welcome to My Portfolio</h1>
+    </div>
+        <iframe
+	width="420"
+	height="230"
+	src="https://www.youtube.com/embed/KOIEo_74L-Q"
+></iframe>
+        <p>enjoy some music while you are here.</p>
+    </section>
+    <section id="about" class="section">
+        <h2 style="color: crimson;">About Me</h2>
+        <p>I am a novice in the realm of web development, aspiring to become a full-stack web developer.
+             This marks my inaugural attempt at creating a portfolio page.</p>
+    </section>
+    <section id="work" class="section">
+        <h2 style="color:crimson">My Work</h2>
+        <p>Check out some of my projects.</p>
+        <ul>
+            <li><a href="https://docs.google.com/presentation/d/1mulA64v2WbIIPNXbi-_zSymzmIn4jy9U/edit?usp=drive_link">web Fundamentals</a></li>
+            <li><a href="https://docs.google.com/document/d/1k6-GMqht8ErbuQVXhlKQMfvJjYIv7RR7obIEYvCNDLc/edit?usp=drive_link">git and github</a></li>
+        </ul>
+    </section>
+    <section id="resume" class="section">
+        <h2 style="color: crimson;">My Resume</h2>
+        <p>View my resume below:</p>
+        <a href="https://docs.google.com/document/d/1_0vQ7TEi_GkI0RJcROaBlGyDIv_z9wwL/edit?usp=sharing&ouid=116653314556247889663&rtpof=true&sd=true" download>Resume</a>
+    </section>
+    <section id="contact" class="section">
+        <h2 style="color: crimson;">Contact Me</h2>
+        <p>Use the form below to get in touch:</p>
+        <form action="submit_form.php" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required><br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required><br>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea><br>
+            <input type="submit" value="Submit">
+        </form>
+    </section>
+    <footer>
+        <p>&copy; 2023 My Portfolio. All rights reserved.</p>
+    </footer>
+</body>
+</html>
